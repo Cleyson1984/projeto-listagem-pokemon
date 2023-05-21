@@ -2,13 +2,21 @@ body {
 	font-family: 'Poppins', sans-serif;
 	max-width: 1280px;
 	margin: 0 auto;
-	background-color: #5e5b5bad;
+	background-image: url(../imagens/tela-pokemon.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	/*background-color: #5e5b5bad;*/
 	color: #333333;
 }
 
 body.modo-escuro {
-	background-color: #212121;
-	color: #f5f5f5;
+	 
+	/*background-color: #212121;
+	color: #f5f5f5;*/
+	background-image: url(../imagens/tema-escuro-fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header {
